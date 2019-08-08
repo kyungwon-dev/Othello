@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+	cout << "Game Start" << "\n";
 	View view;
 	Interface interfaces;
 	for (; interfaces.firstPhase() == 2; clrscr())
